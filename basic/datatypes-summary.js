@@ -41,7 +41,7 @@ console.log(typeof anotherId);
 
 //stack ------pass the copy of org data   and stack is a primitive datatype
 
-//heap  ----- pass the org. data.   and heap is a none primitive datatype
+//heap  ----- heap reference of original value.   and heap is a none primitive datatype
 
 
 //stack --------
