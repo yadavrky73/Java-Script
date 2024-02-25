@@ -29,3 +29,10 @@ console.log(typeof 232456);
 
 console.log(typeof undefined);    //undefined
 console.log(typeof null);     //object
+
+
+
+
+//*************************************************** */
+
+//stack(p)
