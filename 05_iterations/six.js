@@ -10,19 +10,27 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// const newNums = myNums.filter( (num) => {
-//     return num > 4
+// const newNums = myNums.filter( (num) => {              //that is call the arrow function 
+//      num > 4                                      //when we use the scope {} than definitaly use the return keyword
 // } )
+// console.log(newNums);    //print =[]
 
-// const newNums = []
+const  newNum = myNums.filter((num) => num >4 );
+console.log(newNum);                                   //.  return the  [ 5, 6, 7, 8, 9, 10 ]
 
-// myNums.forEach( (num) => {
-//     if (num > 4) {
-//         newNums.push(num)
-//     }
+// const newNums = myNums.filter( (num) => {              //that is call the arrow function 
+//        return num > 4                                  //when we use the scope {} than definitaly use the return keyword
 // } )
+// console.log(newNums);                                  //print = [ 5, 6, 7, 8, 9, 10 ]
 
-// console.log(newNums);
+const newNums = []
+
+myNums.forEach( (num) => {
+    if (num > 4) {
+        newNums.push(num)
+    }
+} )
+console.log(newNums);
 
 
 const books = [
@@ -37,9 +45,17 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk) => bk.genre === 'History')
+  let userBooksFil = books.filter( (bk) => bk.genre === 'History')    //we not open the scope
+  // userBooks = books.filter((bk) =>{ bk.publish >= 2000});     //return the empty array =[] we want to retur. the scope
+  userBooks = books.filter((bk) =>{ 
+      return bk.publish >= 1995 && bk.genre === 'History';
+  });
+  
+  //console.log(userBooksFil);
+  console.log(userBooks);
 
-  userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
-})
+
+//   userBooks = books.filter( (bk) => { 
+//     return bk.publish >= 1995 && bk.genre === "History"
+// })
   console.log(userBooks);
