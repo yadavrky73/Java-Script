@@ -34,7 +34,13 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-for (const [key, value] of myObject) {
-    console.log(key, ':-', value);
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value);
     
+// }
+
+for (const key in myObject) {
+    //console.log({key}, ':-', {myObject['key']});
+    console.log(`${key} shortcut is for ${myObject[key]}`);
 }
+
