@@ -23,5 +23,5 @@ map.set('IN', "India")
 
 for (const key in map) {
     console.log(key);
-    console.log()
+    console.log(map[key]);
 }
