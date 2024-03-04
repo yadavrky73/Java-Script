@@ -22,6 +22,7 @@ if (playGame) {
     console.log(guess);
     validateGuess(guess);
   });
+  submit.addEventListener
 }
 
 function validateGuess(guess) {
