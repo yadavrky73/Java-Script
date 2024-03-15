@@ -1,14 +1,14 @@
 let score = "Rohit"
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
-let phone = 234567
+// let phone = 234567
 
-console.log(typeof(phone))
+// console.log(typeof(phone))
 
-let valueInNumber = Number(score)
-console.log(typeof(valueInNumber));
+// let valueInNumber = Number(score)
+// console.log(typeof(valueInNumber));
 
 
 // "33" => 33
@@ -17,25 +17,25 @@ console.log(typeof(valueInNumber));
 
 
 
-let type = "NA2324"
+let type = "HH2324"
 let valueConvertInNumber = Number(type)
-console.log(typeof(valueConvertInNumber));
-console.log(valueConvertInNumber);
+// console.log(typeof(valueConvertInNumber));    //number
+//console.log(valueConvertInNumber);     //NaN
 
-let typeNum = 45678
-let valueConvertInString = String(typeNum)
-console.log(typeof(valueConvertInString));
-console.log(valueConvertInString);
+// let typeNum = 45678
+// let valueConvertInString = String(typeNum)
+// console.log(typeof(valueConvertInString));
+// console.log(valueConvertInString);       //return 45678
 
 let typeNull = null
 let valueConvertInNum = Number(typeNull)
 console.log(typeof(valueConvertInNum));
 console.log(valueConvertInNum);
 
-let typeUndefind = true
-let typeUndefindNum = Number(typeUndefind)
-console.log(typeof(typeUndefindNum));
-console.log(typeUndefindNum);
+// let typeUndefind = true
+// let typeUndefindNum = Number(typeUndefind)
+// console.log(typeof(typeUndefindNum));
+// console.log(typeUndefindNum);      //return 0
 
 
 let isLoggedIn = ""      //1--true , 0---false.  convert.     empty string ===false
@@ -73,7 +73,7 @@ let str4 = "test"
 
 let num = 2
 let con = str4+num
-console.log(con);
+console.log(con);     //return the test 2
 
 
 
