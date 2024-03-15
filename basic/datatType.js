@@ -5,9 +5,6 @@
 console.log(3 
     +
      3) // code readability should be high
-
-
 let name = "Rohit"
-let phone =456789
-
-//console.log(typeof "rohit");
+let phone = 456789
+console.log(typeof "rohit");
