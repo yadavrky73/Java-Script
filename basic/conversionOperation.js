@@ -3,12 +3,12 @@ let score = "Rohit"
 // console.log(typeof score);
 // console.log(typeof(score));
 
-// let phone = 234567
+let phone = 234567
 
-// console.log(typeof(phone))
+console.log(phone)
 
-// let valueInNumber = Number(score)
-// console.log(typeof(valueInNumber));
+let valueInNumber = Number(score)
+console.log(typeof(valueInNumber));
 
 
 // "33" => 33
@@ -24,13 +24,13 @@ let valueConvertInNumber = Number(type)
 
 // let typeNum = 45678
 // let valueConvertInString = String(typeNum)
-// console.log(typeof(valueConvertInString));
+// console.log(typeof(valueConvertInString));     //return string
 // console.log(valueConvertInString);       //return 45678
 
 let typeNull = null
 let valueConvertInNum = Number(typeNull)
-console.log(typeof(valueConvertInNum));
-console.log(valueConvertInNum);
+console.log(typeof(valueConvertInNum));     //return number
+console.log(valueConvertInNum);      //return 0
 
 // let typeUndefind = true
 // let typeUndefindNum = Number(typeUndefind)
