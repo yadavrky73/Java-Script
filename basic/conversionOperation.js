@@ -41,7 +41,7 @@ console.log(valueConvertInNum);      //return 0
 let isLoggedIn = ""      //1--true , 0---false.  convert.     empty string ===false
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);    //return false. 
 
 
 // 1 => true; 0 => false
@@ -73,14 +73,14 @@ let str4 = "test"
 
 let num = 2
 let con = str4+num
-console.log(con);     //return the test 2
+console.log(con);     //return = test2
 
 
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
 
 console.log((3 + 4) * 5 % 3);
 
