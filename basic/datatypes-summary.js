@@ -12,6 +12,8 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
+console.log(id)
+console.log(anotherId)
 console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
@@ -54,7 +56,8 @@ stackIdName = "kedar"
 
 
 console.log(stackID)   //parent value not change becouse we pass the only copy
-console.log(stackIdName)
+console.log(stackIdName)    //kedar
+console.log(stackID)  // rohit
 
 
 
@@ -65,6 +68,9 @@ let myHeap = {
     name: "Rohit",
     age: 22,
 }
+
+
+console.log(myHeap)
 
 let MyHeap_1 = myHeap
 
