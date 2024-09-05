@@ -76,7 +76,7 @@ console.log(negValue);
 
 
 let str1 = "hello"
-let str2 = " rohit"
+let str2 = "rohit"
 
 let str3 = str1 + str2
 console.log(str3);   //return = hello rohit
