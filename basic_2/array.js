@@ -13,10 +13,11 @@ myArr.push(6)         //insert value last index
 myArr.push(7)
 
 myArr.pop()    //. remove the value back
-//console.log(myArr);
+console.log(myArr);
 
 myArr.unshift(9)          // add the value 0 index/first index  
-myArr.shift()          // remove the value 0 index/first index  
+console.log(myArr)
+myArr.shift()             // remove the value 0 index/first index  
 myArr.shift() 
 
 console.log(myArr);
