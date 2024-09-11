@@ -9,7 +9,8 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1",    //symbol defind 
+   mySym : "mykey1",     //normal js obejcts key and value
     age: 18,
     "location local": "Jaipur",
     email: "hitesh@google.com",
@@ -17,6 +18,7 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
+console.log(JsUser)
 console.log(JsUser.email)
 console.log(JsUser["email"])
 console.log(JsUser["location local"])
