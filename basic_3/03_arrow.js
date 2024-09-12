@@ -9,41 +9,54 @@ const user = {
 
 }
 
-// user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "sam"
+user.welcomeMessage()
 
-// console.log(this);
+// console.log(this);   //current 
 
-// function chai(){
-//     let username = "hitesh"
-//     console.log(this.username);
-// }
+// browser ke under global object = window
 
-// chai()
+function oneThis(){
+    console.log(this);      //return the global obejct  this function not null 
+}
+oneThis();
+
+function chai(){
+    let username = "hitesh"
+    //console.log(this)
+    console.log(this.username);         //return the undefined
+}
+
+chai()
 
 // const chai = function () {
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username);        
 // }
 
-const chai =  () => {
+const chai1 =  () => {           //arrow function 
     let username = "hitesh"
     console.log(this);
+    console.log(username)
 }
 
 
-// chai()
+chai1()
 
-// const addTwo = (num1, num2) => {
-//     return num1 + num2
-// }
+//add two nummber usinf arrow function
 
-// const addTwo = (num1, num2) =>  num1 + num2
+const sumTwo = (num1 , num2)=> {
+    return num1+num2;
+}
+console.log(sumTwo(12, 23))
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+const addTwo = (num1, num2) =>  num1 + num2
+console.log(addTwo(999,99))
+const addTwodd = (num1, num2) => ( num1 + num2 )
+console.log(addTwodd(99,99))
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo1 = (num1, num2) => ({username: "hitesh"})
 
 
 console.log(addTwo(3, 4))
