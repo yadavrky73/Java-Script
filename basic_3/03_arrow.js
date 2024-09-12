@@ -22,6 +22,7 @@ function oneThis(){
 }
 oneThis();
 
+console.log('above onwThis is this keyword');
 function chai(){
     let username = "hitesh"
     //console.log(this)
