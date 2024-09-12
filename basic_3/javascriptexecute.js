@@ -9,7 +9,7 @@
 //javascript execute context   ---1. global javascript execute context  , 2. function javascript execute context.   , 3. eval javascript context
 
 
-execute
+//execute
 
 //1. global execute  page
 //2. memory pase     for example    - n : undefind   , square : defind   , square1 ,  square2 , result1 and result2 undefind 
@@ -33,3 +33,30 @@ function square(n) {
 //jitne bar function aayega hhar bar execute hoga ;- memory phase and execution phase
 
 //final execution content after delete the global execute content
+
+
+
+
+//heap method heap method run accoding to run in last out run 
+function one(){
+    console.log('one');
+    two()
+}
+
+function two(){
+    console.log('two');
+    three()
+}
+
+
+function three(){
+    console.log('three');
+}
+
+
+
+one()
+console.log('breake_1');
+two()
+console.log('breake_2');
+three()
