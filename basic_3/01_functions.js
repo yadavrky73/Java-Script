@@ -8,12 +8,12 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+sayMyName()
 
-// function addTwoNumbers(number1, number2){
+function addTwoNumbers(number1, number2){
 
-//     console.log(number1 + number2);
-// }
+    console.log(number1 + number2);
+}
 
 function addTwoNumbers(number1, number2){
 
@@ -35,15 +35,15 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){             // ....numm_1  rest ot scope operater ,
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
     username: "hitesh",
@@ -68,3 +68,4 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+

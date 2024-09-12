@@ -12,7 +12,7 @@ if (true) {
 // console.log(a);
 // console.log(b);
 // console.log(c);
-
+//{}  // scope cold
 
 function one(){
     const username = "hitesh"
@@ -44,15 +44,28 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+//var
 
-function addone(num){
-    return num + 1
+var y = 300;    // global scope
+
+// if or else or loop ke ander wala blog scope 
+if(true){
+    var y= 10;
+    let x=10;
+    const z=10;
 }
 
+//
 
 
-addTwo(5)
-const addTwo = function(num){
-    return num + 2
+//console.log('y' , y);    //return the y = 10;
+// console.log('x' , x);      // x is undefing 
+// console.log('z' , z);   // z is undefing
+
+
+
+var aa = 100;
+if (true){
+var aa=200;
 }
+console.log(aa);
