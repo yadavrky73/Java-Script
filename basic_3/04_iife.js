@@ -1,6 +1,5 @@
 // Immediately Invoked Function Expressions (IIFE)
 
-
 function chai(name){         // ()-peranthicis lgane pr function blog ban jata h 
     // named IIFE
     console.log(`DB CONNECTED ${name}`);

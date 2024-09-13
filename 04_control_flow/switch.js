@@ -7,7 +7,7 @@
 //         break;
 // }
 
-const month = "april"
+const month = "feb"
 
 switch (month) {
     case "jan":
@@ -15,13 +15,13 @@ switch (month) {
         break;
     case "feb":
         console.log("feb");
-        break;
+        // break;        //iif we don't use the  break function then run the nothher case switch does not rediirect , he is only redirect after break
     case "march":
         console.log("march");
         break;
     case "april":
         console.log("april");
-        break;
+        // break;
 
     default:
         console.log("default case match");
