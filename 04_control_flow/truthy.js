@@ -46,26 +46,34 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
 }
 
-// Nullish Coalescing Operator (??): null undefined
+
 
 console.log('true or false' , false=='0');   //return true
 console.log('true or false' , false =='');   //return true
 console.log('true or false' , 0=='');   //return true
 console.log('true or false' , 0=='');   //return true
 
+
+// Nullish Coalescing Operator (??): null undefined
 let val1;
-// val1 = 5 ?? 10
-// val1 = null ?? 10
-val1 = undefined ?? 15
-//val1 = null ?? 10 ?? 20
+val1 = 5 ?? 10
+console.log('val1',val1);
+ val2 = null ?? 10
+console.log('val2',val2);
+val3 = undefined ?? 15
+console.log('val3',val3);
+val4 = null ?? 10 ?? 20
+console.log('val4',val4);
 
 
 
 console.log(val1);
 
 // Terniary Operator
-
 // condition ? true : false
 
 const iceTeaPrice = 100
 iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+
+const cond = true;
+cond <= false ? console.log("less retrun true value") : console.log('return the false');
